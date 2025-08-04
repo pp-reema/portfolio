@@ -8,32 +8,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
          :root {
-            /* Modern Ocean Theme */
-            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
-            --secondary-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 25%, #667eea 50%, #764ba2 75%, #f093fb 100%);
-            --accent-gradient: linear-gradient(45deg, #4facfe 0%, #00f2fe 25%, #43e97b 50%, #38f9d7 75%, #667eea 100%);
+              /* Solid Professional Theme */
+              --primary-color: #3b82f6;        /* Blue-500 */
+              --secondary-color: #1e40af;      /* Blue-900 */
+              --accent-color: #10b981;         /* Emerald-500 */
+              
+              --bg-primary: #ffffff;
+              --bg-secondary: #f1f5f9;         /* Slate-100 */
+              --bg-card: #ffffff;
+              --text-primary: #1f2937;         /* Gray-800 */
+              --text-secondary: #6b7280;       /* Gray-500 */
+              --border-color: #e5e7eb;         /* Gray-200 */
+              --shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+              --hover-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+            }
             
-            --bg-primary: #ffffff;
-            --bg-secondary: #f8fafc;
-            --bg-card: #ffffff;
-            --text-primary: #1a202c;
-            --text-secondary: #718096;
-            --border-color: #e2e8f0;
-            --shadow: 0 4px 25px rgba(102, 126, 234, 0.15);
-            --hover-shadow: 0 10px 40px rgba(102, 126, 234, 0.25);
-        }
+            [data-theme="dark"] {
+              /* Solid Dark Mode Theme */
+              --bg-primary: #0f172a;           /* Navy Blue */
+              --bg-secondary: #1e293b;         /* Slightly lighter */
+              --bg-card: #334155;
+              --text-primary: #f8fafc;         /* White */
+              --text-secondary: #94a3b8;       /* Slate */
+              --border-color: #475569;
+              --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+              --hover-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            }
 
-        [data-theme="dark"] {
-            /* Modern Ocean Dark Theme */
-            --bg-primary: #0f172a;
-            --bg-secondary: #1e293b;
-            --bg-card: #334155;
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --border-color: #475569;
-            --shadow: 0 4px 25px rgba(15, 23, 42, 0.4);
-            --hover-shadow: 0 10px 40px rgba(15, 23, 42, 0.6);
-        }
 
         * {
             margin: 0;
